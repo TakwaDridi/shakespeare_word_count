@@ -1,10 +1,11 @@
 def show_top_n_words(word_count: dict,
-                     n: int = 10):
+                     n: int = 10) -> None:
     """
+    This function prints the top-n occurring words in the word_count dictionary.
+
     :param word_count: dictionary containing words as its keys and their respective
      number of occurrences as its values
     :param n: number of words to print
-    :return:
     """
     word_count = list(zip(word_count.keys(), word_count.values()))
 

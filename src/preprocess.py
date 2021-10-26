@@ -23,6 +23,7 @@ def count_words_in_text(text: str) -> dict:
     """
     This function counts the occurrence of every word in a text,
     words are supposedly separated by a space character.
+
     :param text: the text extracted from the Tempest file and cleaned
     :return: a dictionary with all words as key and their occurrence as value
     """
