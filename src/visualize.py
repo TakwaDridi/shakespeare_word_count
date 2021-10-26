@@ -13,6 +13,6 @@ def show_top_n_words(word_count: dict,
                         reverse=True)
 
     for i, (word, n_occ) in enumerate(iterable=word_count, start=1):
-        print(word, f'({n_occ})')
+        print(f'{word:10}', f'({n_occ})')
         if i >= n:
             break
