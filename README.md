@@ -42,5 +42,5 @@ arguments:
 $ python main.py --input_file_path <path-to-input-file/file.txt> --output_file_path <path-to-output-file/file.txt>
 ````
 
-Results will be printed by the program and the processed text will be saved in the output file path that you will have
+Results will be printed in the standard output and the processed text will be saved in the output file path that you will have
 precised or in the data directory by default.
